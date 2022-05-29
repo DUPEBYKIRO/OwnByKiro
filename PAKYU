@@ -33,7 +33,8 @@ TextButton.Font = Enum.Font.SourceSans
 TextButton.Text = "EXECUTE"
 TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton.TextSize = 25.000
-TextButton.MouseButton1Down:connect(function()loadstring(game:HttpGet(('hhtps://raw.githubusercontent.com/DUPEBYKIRO/DupeOnly1/main/GwapoKiro'),true))()
+TextButton.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('hhtps://raw.githubusercontent.com/DUPEBYKIRO/DupeOnly1/main/GwapoKiro'),true))()
 end)
 
 TextLabel_2.Parent = Frame
