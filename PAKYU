@@ -33,7 +33,7 @@ TextButton.Font = Enum.Font.SourceSans
 TextButton.Text = "EXECUTE"
 TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton.TextSize = 25.000
-loadstring(game:HttpGet(('hhtps://raw.githubusercontent.com/DUPEBYKIRO/DupeOnly1/main/GwapoKiro'),true))()
+TextButton.MouseButton1Down:connect(function()loadstring(game:HttpGet(('hhtps://raw.githubusercontent.com/DUPEBYKIRO/DupeOnly1/main/GwapoKiro'),true))()
 end)
 
 TextLabel_2.Parent = Frame
@@ -44,4 +44,3 @@ TextLabel_2.Font = Enum.Font.SourceSans
 TextLabel_2.Text = "THE INSTRUCTIONS WILL BE GIVEN ON CHAT"
 TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_2.TextSize = 24.000
-TextButton.MouseButton1Down:connect(function()
